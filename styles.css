@@ -28,7 +28,7 @@ body{
 .eth-over{
     position:absolute;
     left: 42%;
-    width:95px;
+    width:103px;
     background-color:  hsl(178, 100%, 50%);
     opacity:0;
     padding:5.1%;
@@ -39,6 +39,9 @@ body{
 }
 .eth-over:hover{
     opacity:0.9;
+}
+.head:hover{
+    color: aqua;
 }
 
 .small-txt{
@@ -82,18 +85,24 @@ hr{
     background-color: #87ACD6;
     height: 1px;
 }
+.last{
     
+}
 .bottom1{
-    /* position:absolute; */
+    position:absolute;
     color:white;
     display:inline;
+    
 }
 .bottom2{
-    /* position:absolute; */
-    left:0%;
-    color:white;
-    display:inline-block;
+    position:absolute;
+    left:50.5%;
+    color:#87ACD6;
+    display:inline;
 
+}
+.bottom2:hover{
+    color:aqua;
 }
 @media (max-width:1024px){
     .nftcard{
@@ -102,11 +111,9 @@ hr{
         padding: 7%;
         /* background-color: #fff; */
     }
-    .bottom1{
+    .bottom2{
         position:absolute;
-        top:80%
-        color: white;
-        display:inline-block;
+        left:46%;       
     }
     
 }
